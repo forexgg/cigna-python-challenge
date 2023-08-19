@@ -1,0 +1,120 @@
+HOST1: 
+  min: 77.85
+  max: 77.89
+  avg: 77.86
+HOST2: 
+  min: 77.69
+  max: 77.73
+  avg: 77.71
+HOST3: 
+  min: 77.75
+  max: 77.79
+  avg: 77.77
+HOST4: 
+  min: 78.03
+  max: 78.06
+  avg: 78.04
+HOST5: 
+  min: 85.92
+  max: 87.47
+  avg: 86.84
+HOST6: 
+  min: 93.28
+  max: 93.64
+  avg: 93.49
+HOST7: 
+  min: 96.5
+  max: 96.83
+  avg: 96.68
+HOST8: 
+  min: 90.07
+  max: 92.09
+  avg: 90.81
+HOST9: 
+  min: 96.1
+  max: 96.52
+  avg: 96.35
+HOST10: 
+  min: 99.23
+  max: 99.57
+  avg: 99.4
+HOST11: 
+  min: 94.84
+  max: 94.98
+  avg: 94.9
+HOST12: 
+  min: 54.27
+  max: 54.84
+  avg: 54.77
+HOST13: 
+  min: 39.54
+  max: 40.8
+  avg: 40.52
+HOST14: 
+  min: 51.16
+  max: 51.38
+  avg: 51.27
+HOST15: 
+  min: 81.26
+  max: 81.3
+  avg: 81.29
+HOST16: 
+  min: 85.09
+  max: 93.46
+  avg: 92.1
+HOST17: 
+  min: 60.58
+  max: 61.2
+  avg: 61.17
+HOST18: 
+  min: 79.35
+  max: 97.42
+  avg: 82.98
+HOST19: 
+  min: 82.42
+  max: 83.14
+  avg: 82.77
+HOST20: 
+  min: 71.12
+  max: 73.03
+  avg: 71.92
+HOST21: 
+  min: 54.34
+  max: 61.11
+  avg: 57.69
+HOST22: 
+  min: 57.55
+  max: 61.31
+  avg: 59.98
+HOST23: 
+  min: 35.76
+  max: 41.91
+  avg: 37.35
+HOST24: 
+  min: 33.64
+  max: 40.69
+  avg: 36.76
+HOST25: 
+  min: 32.32
+  max: 45.79
+  avg: 36.96
+HOST26: 
+  min: 41.43
+  max: 46.13
+  avg: 43.36
+HOST27: 
+  min: 43.53
+  max: 47.21
+  avg: 45.07
+HOST28: 
+  min: 43.23
+  max: 49.01
+  avg: 45.64
+HOST29: 
+  min: 31.82
+  max: 41.61
+  avg: 36.37
+ALL_HOSTS: 
+  min: 31.82
+  max: 99.57
+  avg: 67.73

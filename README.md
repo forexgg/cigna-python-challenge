@@ -52,3 +52,30 @@ Good luck!
 
 
 
+# Code Walkthrough
+This code is to read statistics from a CSV file, calculate metrics (minimum, maximum, and average) for a list of hosts, and output the results in various formats: default 1 line output, JSON, XML, YAML, and pipe-delimited text.
+
+## Step 1: Reading the CSV
+The function read_csv(filename) was implemented to read the CSV file.
+
+hostnames: A list of all the hostnames present in the CSV file.  
+data: A nested list where each entry corresponds to a row in the CSV file.
+
+## Step 2: Calculating the Stats
+The hosts_stats(hostnames, data) function takes the previously parsed data and calculates minimum, maximum, and average metrics for each hostname. Additionally, it calculates these metrics for all the hosts combined.
+
+ - Initialize a dictionary col_data to store the data related to each hostname (unpivot).
+ - Loop through each host and calculate the metrics.
+ - min_all, max_all, tal_all, and cnt_all to calculate the overall statistics.
+
+## Step 3: Conversion Functions
+ - Use Python built-in json module to convert a dictionary to JSON
+ - dict_to_xml: Recursively converts a dictionary into an XML format using the ElementTree module (simple implementation).
+ - dict_to_yaml: Recursively converts a dictionary into YAML format (simple implementation). 
+ - dict_to_txt: Converts the dictionary to a pipe-delimited text format.
+
+## Step 4: Main function
+ - The CSV data is read.
+ - The statistics are calculated.
+ - The results are printed in the default dictionary format.
+ - The results are then converted and printed/saved in JSON, XML, YAML, and pipe-delimited text formats respectively.
